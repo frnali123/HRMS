@@ -9,7 +9,7 @@ COPY . .
 # ----------------- SABSE ZAROORI -----------------
 # Apne project ka sahi path (raasta) yahaan daalein.
 # Agar aapka project "HRMS.API" folder mein hai, toh "HRMS.API/HRMS.API.csproj" likhein.
-RUN dotnet publish "HRMS.csproj" -c Release -o /app/publish
+RUN dotnet publish "HRMS/HRMS.csproj" -c Release -o /app/publish
 # -------------------------------------------------
 
 # Stage 2: Final Image
