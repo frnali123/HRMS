@@ -67,6 +67,9 @@ builder.Services.AddScoped<IEmployeeDashboardRepository, SqlEmployeeDashboardRep
 builder.Services.AddScoped<IDashboardService, DashboardService>();
 builder.Services.AddScoped<PasswordHasher<User>>();
 builder.Services.AddHttpContextAccessor();
+//Hr Dashboard sevices and repository
+builder.Services.AddScoped<IHrDashboardRepository, SqlHrDashboardRepository>();
+builder.Services.AddScoped<IhrDahboardService, HrDashboardService>();
 
 //Add jwt token
 JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();

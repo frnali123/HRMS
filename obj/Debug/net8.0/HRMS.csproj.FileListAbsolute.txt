@@ -138,3 +138,4 @@ C:\Users\user\Desktop\PROJECT\HRMS\HRMS\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\user\Desktop\PROJECT\HRMS\HRMS\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\user\Desktop\PROJECT\HRMS\HRMS\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\user\Desktop\PROJECT\HRMS\HRMS\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\user\Desktop\PROJECT\HRMS\HRMS\obj\Debug\net8.0\HRMS.sourcelink.json

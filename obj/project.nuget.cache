@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "K9LUr+EYKrw168IAyu4OsHVxM0hWq+DhaZ6m95d+E4anEfW9iN8E8RYLZmK4Las2esoiwhrf7zjUWxkNqApi1A==",
+  "dgSpecHash": "BHx+n2SAMWRD52qsLv106nRMW+TRMZo/6rqJTfPqjc+dMyckJVySGgocjOOmub5Vgi9imwLDjgjuw8Pwm1mI6A==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Desktop\\PROJECT\\HRMS\\HRMS\\HRMS.csproj",
   "expectedPackageFiles": [
@@ -53,6 +53,8 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0\\npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
