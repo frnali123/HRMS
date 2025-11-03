@@ -1,0 +1,6 @@
+# Isse build speed tez hoti hai
+**/bin/
+**/obj/
+.git
+.vs
+.vscode 
