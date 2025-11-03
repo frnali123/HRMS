@@ -25,7 +25,7 @@ builder.Services.AddSwaggerGen();
 
 //Add Application DbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("ConStr")));
+options.UseNpgsql(builder.Configuration.GetConnectionString("ConStr")));
 
 
 //Add AutoMapper
@@ -150,11 +150,13 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
+app.UseSwagger();
+app.UseSwaggerUI();
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+  
 }
 
 app.UseHttpsRedirection();
