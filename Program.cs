@@ -22,6 +22,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Step 1: Naya variable 'DATABASE_URL' seedhe padhein
+var connectionString = builder.Configuration["postgresql://hrms_user:vj1bxqPeOzmVQtL1Cn19ON8wW6D2dnH7@dpg-d44bb7odl3ps73aqb660-a.oregon-postgres.render.com/hrms_db_8039"];
 
 //Add Application DbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
