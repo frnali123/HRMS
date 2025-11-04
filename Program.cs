@@ -150,6 +150,15 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
+// ----------------- YEH NAYA CODE ADD KAREIN -----------------
+
+// Automatic database migrations ko run karein
+using (var scope = app.Services.CreateScope())
+{
+  var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>(); // <-- Agar naam alag hai toh badlein
+  dbContext.Database.Migrate();
+}
+
 app.UseSwagger();
 app.UseSwaggerUI();
 
