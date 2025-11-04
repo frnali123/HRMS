@@ -4,3 +4,18 @@
 .git
 .vs
 .vscode 
+# .NET Core build output folders
+**/bin/
+**/obj/
+
+# Visual Studio files
+.vs/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# (Aapki appsettings.Development.json file ko ignore na kare)
+!**/appsettings.Development.json
